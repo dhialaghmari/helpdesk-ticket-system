@@ -295,6 +295,6 @@ class HelpdeskApiIntegrationTest {
                 () -> com.helpdesk.config.DataInitializer.validateAdminPassword("Admin@12345"));
         org.junit.jupiter.api.Assertions.assertThrows(IllegalStateException.class,
                 () -> com.helpdesk.config.DataInitializer.validateAdminPassword(""));
-        com.helpdesk.config.DataInitializer.validateAdminPassword("ChangeThisToAStrongPassword!");
+        com.helpdesk.config.DataInitializer.validateAdminPassword("ChangeThisToAStrongPassword1!");
     }
 }
